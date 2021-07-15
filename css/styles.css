@@ -1,0 +1,477 @@
+
+
+body, html {
+	font-family: Roboto, sans-serif;
+}
+
+/* Navbar Section */
+
+button:focus {
+
+	outline:0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.navbar-shadow {
+
+
+padding-top: 1%;
+padding-bottom: 1%;
+}
+
+.navbar-expand-lg {
+	margin: 0 5% 0 8%;
+}
+.slide-head {
+	display: none;
+}
+
+.navbar-section {
+	background-color: #fff;
+
+}
+.navbar-brand{
+	font-size: 1.7rem;
+    font-weight: bold;
+	
+}
+
+.navbar-item-icon {
+	display: none;
+}
+
+.nav-link {
+	
+font-size: 1.2rem;
+font-weight: 600;
+
+
+}
+.nav-item{
+	margin-left: 20px;
+}
+
+
+
+.get-started {
+	
+	border-radius: 3px;
+	box-shadow: 2px 4px 9px 1px rgba(0,0,0,0.3);
+
+}
+
+
+
+.login-started {
+
+	border-radius: 3px;
+	box-shadow: 2px 4px 9px 1px rgba(0,0,0,0.3);
+
+}
+
+
+
+.bottom-left-gradient {
+	position: absolute;
+	top: 100px;
+	left: -9%;
+
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: linear-gradient(#C779D0,#48C0C8);
+}
+.btn:hover {
+  border: 1px solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #427388; 
+}
+.slider-section {
+padding: 5vw 10vw 0 10vw;
+
+}
+
+.heading-hr {
+	border: 1px solid red;
+	width:50%;text-align:left;margin-left:0;
+}
+.slider-section h3{
+
+margin-top: 5%;
+opacity: 0.9;
+line-height: 30px;
+	}
+
+.big-heading {
+	font-weight: bold;
+	margin-top: 7%;
+	line-height: 1.5;
+	color: #6C63FF;
+}
+
+.small-heading {
+	opacity: 0.7 !important;
+}
+
+.slide-button {
+	
+		text-align: center;
+		width: 240px;
+		padding: 12px 0 12px 0;
+		font-size: 1.5rem;
+		color: #fff;
+		margin-top: 3%;
+	
+	}
+
+
+
+/* Services Section */
+
+
+.services-section {
+	 font-family: 'Source Sans pro', sans-serif;
+	margin-top: 8%; 
+}
+.services-section h6 {
+	line-height: 2;
+	opacity: 0.7;
+}
+.app-heading {
+	color: #6C63FF;
+
+	line-height: 1.5;
+	font-weight: bold;
+}
+
+
+.services-bg  {
+	background-color: #1b6ca8;
+}
+
+
+
+
+	/* Pricing Section */
+
+  .pricing-section .container{
+    display: flex;
+      flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+.pricing-section .tab{
+  background: #fff;
+  width: 330px;
+  padding: 40px;
+  border-radius: 20px;
+ box-shadow: 0 4px 15px rgba(44, 46, 65, .15);
+  margin:20px;
+}
+
+.pricing-section .name h1{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+    text-align: center;
+
+}
+.pricing-section .price h2{
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.pricing-section .price span{
+  font-size: 12px;
+}
+
+.pricing-section hr{
+  height: 7px;
+  width: 60%;
+  margin: auto;
+  margin-top: 20px;
+  background-color: #6C63FF;
+  border:none;
+  border-radius: 50px;
+}
+
+.pricing-section .list{
+  margin-top: 50px;
+  text-align: left;
+  list-style:none;
+}
+.pricing-section ul li{
+  margin: 20px 0;
+}
+.pricing-section ul li::before{
+  content: '✔';
+  margin-right: 20px;
+  color: blue;
+}
+.pricing-section ul .line::before{
+  content: '✖';
+  margin-right: 20px;
+  color: grey;
+}
+.pricing-section button{
+  font-size: 15px;
+  font-weight: 300;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #6C63FF;
+  outline: none;
+  border: none;
+  border-radius: 50px;
+  padding: 12px 50px;
+  margin-top: 20px;
+  box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.15);
+  transition: 0.3s linear;
+  cursor: pointer;
+display: block;
+margin-top: 10%;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+
+/* Function Section */ 
+
+.function-section {
+	background-color: #6C63FF;
+	height: 390px;
+	text-align: center;
+}
+
+.function-section .app-heading {
+	color: #fff;
+	margin-top: 3%;
+}
+
+.function-section h6 {
+	font-size: 1.5rem;
+	color: #fff;
+
+}
+.function-section .function-bg {
+	font-size: 1.5rem;
+	color: #fff;
+
+}
+.function-section .slide-button {
+	margin-top: 1%;
+
+}
+	
+
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+.white-section {
+	text-align: center;
+}
+
+.white-section h5 {
+	 font-family: 'Source Sans pro', sans-serif;
+}
+
+
+
+
+@media (max-width: 1224px) {
+
+
+.bottom-left-gradient {
+	
+
+	width: 160px;
+
+
+}
+  
+}
+
+/* Media Queries */
+
+@media (max-width: 1044px) {
+
+
+.big-heading {
+	font-size: 2.2rem;
+}
+
+.small-heading {
+font-size: 1.5rem;
+}
+
+.slide-button {
+		
+		width: 200px;
+
+		font-size: 1.2rem;
+	
+	}
+
+}
+
+
+@media (max-width: 991px) {
+
+  .slide-head {
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  	margin-bottom: 10%;
+  }
+
+.get-started {
+	margin-top: 4%;
+
+}
+
+.login-started {
+
+margin-top: 3%;
+
+}
+
+
+.bottom-left-gradient {
+	display: none;
+
+}
+
+.navbar-nav {
+	margin-top: 5%;
+}
+.navbar-item-icon {
+	display: inline-block;
+}
+.heading-hr {
+	border: 1px solid red;
+	width:50%;
+	
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+ 
+ .slide-right-img {
+  	display: none;
+  }
+.slider-section .big-heading {
+text-align: center;
+}
+.slider-section .small-heading {
+text-align: center;
+}
+.slider-section .btn {
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+
+
+.app-left {
+	margin-top: 17%;
+
+}
+
+
+
+.app-heading {
+
+	font-size: 2rem;
+}
+
+.app-right  {
+		margin-top: 5%;
+}
+
+}
+
+
+
+
+@media (max-width: 767px) {
+
+
+.app-right {
+	text-align: center;
+	padding: 0 15% 0 15%;
+}
+.slide-button {
+
+		width: 180px;
+		
+		font-size: 1.2rem;
+	}
+
+}
+
+
+@media (max-width: 406px) {
+
+.slide-button {
+	
+		width: 200px;
+		font-size: 1rem !important;	
+	
+	}
+
+  .slider-section .big-heading {
+font-size: 2rem;
+}
+.slider-section .middle-heading {
+	font-size: 2.5rem;
+}
+.slider-section .small-heading {
+font-size: 1.4rem;
+}
+.slider-section .btn {
+width: 130px;
+		font-size: 1.3rem;
+}
+
+}
+
+
+@media (max-width: 350px) {
+
+
+  .slider-section .big-heading {
+font-size: 1.4rem;
+}
+.slider-section .middle-heading {
+	font-size: 2rem;
+}
+.slider-section .small-heading {
+font-size: 1.1rem;
+}
+.slider-section .btn {
+width: 120px;
+		font-size: 1.2rem;
+}
+
+
+.navbar-brand{
+	font-size: 1.2rem;
+		
+}
+
+
+}
